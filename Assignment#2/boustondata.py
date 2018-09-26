@@ -7,7 +7,7 @@ Created on Thu Sep 20 13:26:38 2018
 import pandas as pd
 import sklearn
 import matplotlib.pyplot as plt
-
+from sklearn.datasets import load_boston
 boston = load_boston()
 '''
 print(boston.keys())
